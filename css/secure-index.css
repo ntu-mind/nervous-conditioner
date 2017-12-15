@@ -1,0 +1,89 @@
+body {
+	background-color: #f4f2bf;
+}
+
+/* fading the title in/out on hover */
+
+#title-fade {
+	position:relative;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+#title-fade img {
+	top:100px;
+	width: 500px;
+	-webkit-transition: opacity 2s ease-in-out;
+	-moz-transition: opacity 2s ease-in-out;
+	-o-transition: opacity 2s ease-in-out;
+}
+
+#title-fade img.top{
+	opacity: 0;
+	position:absolute;
+}
+
+#title-fade img.bottom{
+	position: absolute;
+}
+
+#title-fade img.top:hover{
+	opacity: 100;
+}
+#title-fade img.bottom:hover {
+	opacity: 0;
+}
+
+/* fading the water pools in/out on hover */
+
+img.top-pool:hover{
+	opacity: 0.75;
+}
+
+img.mid-pool:hover{
+	opacity: 0.75;
+}
+img.bot-pool:hover{
+	opacity: 0.75;
+}
+
+img.top-pool{
+	width: 150px;
+	top:415px;
+	opacity: 0.3;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	position:relative;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+img.mid-pool{
+	width:300px;
+	top:385px;
+	opacity: 0.3;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	position:relative;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
+
+img.bot-pool{
+	width:500px;
+	top:300px;
+	opacity: 0.3;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	position:relative;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
