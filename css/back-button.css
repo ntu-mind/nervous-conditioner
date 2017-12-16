@@ -3,7 +3,7 @@ body {
 }
 
 .back-button {
-	position: absolute;
+	position: fixed;
 	width: 200px;
 	top: 10px;
 	left: 20px;
